@@ -1,0 +1,5 @@
+  File "/root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1/subscriber_member_function.py", line 19
+    self.get_logger().info('I heard: "%s" at %s' % (msg.data, time.now ())
+                          ^
+SyntaxError: '(' was never closed
+

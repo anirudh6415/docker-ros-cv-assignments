@@ -1,0 +1,10 @@
+671,mountain bike
+653,milk can
+651,microwave
+620,laptop
+567,frying pan
+770,running shoe
+950,orange
+827,stove
+951,lemon
+968,cup

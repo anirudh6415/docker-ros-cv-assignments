@@ -1,0 +1,30 @@
+[0.309s] Invoking command in '/root/ros2_ws/src/hw1': PYTHONPATH=/root/ros2_ws/build/hw1/prefix_override:/root/ros2_ws/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1 build --build-base /root/ros2_ws/build/hw1/build install --record /root/ros2_ws/build/hw1/install.log --single-version-externally-managed
+[0.428s] running egg_info
+[0.428s] writing ../../build/hw1/hw1.egg-info/PKG-INFO
+[0.428s] writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt
+[0.428s] writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt
+[0.428s] writing requirements to ../../build/hw1/hw1.egg-info/requires.txt
+[0.429s] writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt
+[0.429s] reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[0.430s] writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[0.430s] running build
+[0.430s] running build_py
+[0.430s] copying hw1/subscriber_member_function.py -> /root/ros2_ws/build/hw1/build/lib/hw1
+[0.430s] running install
+[0.430s] running install_lib
+[0.431s] copying /root/ros2_ws/build/hw1/build/lib/hw1/subscriber_member_function.py -> /root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1
+[0.431s] byte-compiling /root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.431s]   File "/root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1/subscriber_member_function.py", line 19
+[0.431s]     self.get_logger().info('I heard: "%s" at %s' % (msg.data, time.now ())
+[0.431s]                           ^
+[0.431s] SyntaxError: '(' was never closed
+[0.431s] 
+[0.431s] running install_data
+[0.432s] running install_egg_info
+[0.432s] removing '/root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.433s] Copying ../../build/hw1/hw1.egg-info to /root/ros2_ws/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info
+[0.433s] running install_scripts
+[0.444s] Installing partb_listener script to /root/ros2_ws/install/hw1/lib/hw1
+[0.444s] Installing partb_talker script to /root/ros2_ws/install/hw1/lib/hw1
+[0.444s] writing list of installed files to '/root/ros2_ws/build/hw1/install.log'
+[0.457s] Invoked command in '/root/ros2_ws/src/hw1' returned '0': PYTHONPATH=/root/ros2_ws/build/hw1/prefix_override:/root/ros2_ws/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1 build --build-base /root/ros2_ws/build/hw1/build install --record /root/ros2_ws/build/hw1/install.log --single-version-externally-managed

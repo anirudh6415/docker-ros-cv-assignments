@@ -1,0 +1,53 @@
+[0.310s] Invoking command in '/root/ros2_ws/src/hw1': PYTHONPATH=/root/ros2_ws/src/hw1/build/hw1/prefix_override:/root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1 build --build-base /root/ros2_ws/src/hw1/build/hw1/build install --record /root/ros2_ws/src/hw1/build/hw1/install.log --single-version-externally-managed
+[0.444s] running egg_info
+[0.444s] creating build/hw1/hw1.egg-info
+[0.444s] writing build/hw1/hw1.egg-info/PKG-INFO
+[0.444s] writing dependency_links to build/hw1/hw1.egg-info/dependency_links.txt
+[0.444s] writing entry points to build/hw1/hw1.egg-info/entry_points.txt
+[0.444s] writing requirements to build/hw1/hw1.egg-info/requires.txt
+[0.444s] writing top-level names to build/hw1/hw1.egg-info/top_level.txt
+[0.444s] writing manifest file 'build/hw1/hw1.egg-info/SOURCES.txt'
+[0.445s] reading manifest file 'build/hw1/hw1.egg-info/SOURCES.txt'
+[0.446s] writing manifest file 'build/hw1/hw1.egg-info/SOURCES.txt'
+[0.446s] running build
+[0.446s] running build_py
+[0.446s] creating /root/ros2_ws/src/hw1/build/hw1/build
+[0.446s] creating /root/ros2_ws/src/hw1/build/hw1/build/lib
+[0.446s] creating /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/subscriber_member_function.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/publisher_string.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/subscriber_all.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/publisher_member_function.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/publisher_count.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] copying hw1/__init__.py -> /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1
+[0.446s] running install
+[0.446s] running install_lib
+[0.447s] creating /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/subscriber_member_function.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/publisher_string.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/subscriber_all.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/publisher_member_function.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/publisher_count.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] copying /root/ros2_ws/src/hw1/build/hw1/build/lib/hw1/__init__.py -> /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1
+[0.447s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.448s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/publisher_string.py to publisher_string.cpython-310.pyc
+[0.448s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/subscriber_all.py to subscriber_all.cpython-310.pyc
+[0.448s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.448s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/publisher_count.py to publisher_count.cpython-310.pyc
+[0.448s] byte-compiling /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1/__init__.py to __init__.cpython-310.pyc
+[0.448s] running install_data
+[0.449s] creating /root/ros2_ws/src/hw1/install/hw1/share/ament_index
+[0.449s] creating /root/ros2_ws/src/hw1/install/hw1/share/ament_index/resource_index
+[0.449s] creating /root/ros2_ws/src/hw1/install/hw1/share/ament_index/resource_index/packages
+[0.449s] copying resource/hw1 -> /root/ros2_ws/src/hw1/install/hw1/share/ament_index/resource_index/packages
+[0.449s] copying package.xml -> /root/ros2_ws/src/hw1/install/hw1/share/hw1
+[0.449s] running install_egg_info
+[0.450s] Copying build/hw1/hw1.egg-info to /root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info
+[0.450s] running install_scripts
+[0.462s] Installing partb_listener script to /root/ros2_ws/src/hw1/install/hw1/lib/hw1
+[0.462s] Installing partb_talker script to /root/ros2_ws/src/hw1/install/hw1/lib/hw1
+[0.462s] Installing partc_pub_count script to /root/ros2_ws/src/hw1/install/hw1/lib/hw1
+[0.462s] Installing partc_pub_name script to /root/ros2_ws/src/hw1/install/hw1/lib/hw1
+[0.462s] Installing partc_sub_all script to /root/ros2_ws/src/hw1/install/hw1/lib/hw1
+[0.462s] writing list of installed files to '/root/ros2_ws/src/hw1/build/hw1/install.log'
+[0.475s] Invoked command in '/root/ros2_ws/src/hw1' returned '0': PYTHONPATH=/root/ros2_ws/src/hw1/build/hw1/prefix_override:/root/ros2_ws/src/hw1/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hw1 build --build-base /root/ros2_ws/src/hw1/build/hw1/build install --record /root/ros2_ws/src/hw1/build/hw1/install.log --single-version-externally-managed

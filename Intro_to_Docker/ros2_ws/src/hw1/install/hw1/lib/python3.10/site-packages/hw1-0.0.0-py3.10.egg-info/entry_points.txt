@@ -1,0 +1,7 @@
+[console_scripts]
+partb_listener = hw1.subscriber_member_function:main
+partb_talker = hw1.publisher_member_function:main
+partc_pub_count = hw1.publisher_count:main
+partc_pub_name = hw1.publisher_name:main
+partc_sub_all = hw1.subscriber_all:main
+
